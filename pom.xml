@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.Group3</groupId> <!-- Alterar -->
-	<artifactId>mavenTest</artifactId> <!-- Alterar -->
+	<artifactId>mavenWork</artifactId> <!-- Alterar -->
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -33,6 +33,12 @@
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-all</artifactId>
 			<version>1.10.19</version>
+		</dependency>
+		<!-- Dependencias do apache csv reader-->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-csv</artifactId>
+			<version>1.8</version>
 		</dependency>
 	</dependencies>
 	<build>
